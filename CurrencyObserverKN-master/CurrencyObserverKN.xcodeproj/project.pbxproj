@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		586031D914308423A2B2D329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58603805A393CD448B51416A /* Main.storyboard */; };
+		586032E035692DECF4415238 /* CryptocurrencyTableViewController.kt in Resources */ = {isa = PBXBuildFile; fileRef = 5860361831BB0A7BFD7B0BEB /* CryptocurrencyTableViewController.kt */; };
+		5860349838ED4D704AFB0B19 /* ResponseItem.kt in Resources */ = {isa = PBXBuildFile; fileRef = 586035B9ED6E19F43DBFDA60 /* ResponseItem.kt */; };
+		5860371150CE3F46858239CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5860374FBAA5EE1475B6B083 /* Assets.xcassets */; };
+		58603B61E567DE69CAB96AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58603798F4FB3D45E48052D4 /* LaunchScreen.storyboard */; };
+		58603C9396ACB88F94767F3F /* Utils.kt in Resources */ = {isa = PBXBuildFile; fileRef = 5860388A2C3CCD3157162C1D /* Utils.kt */; };
+		58603CFE55DD4FE74BC48354 /* CurrencyTableViewController.kt in Resources */ = {isa = PBXBuildFile; fileRef = 5860300477A9E9009606E8EE /* CurrencyTableViewController.kt */; };
+		58603F1B4C0F215784F1B68A /* CryptocurrencyCell.kt in Resources */ = {isa = PBXBuildFile; fileRef = 586031D78F1E9F4FB708A074 /* CryptocurrencyCell.kt */; };
+		58603FCDAFEA119AA7FA0414 /* CurrencyResponse.kt in Resources */ = {isa = PBXBuildFile; fileRef = 5860383CB48A4DD2B4667C2B /* CurrencyResponse.kt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5860300477A9E9009606E8EE /* CurrencyTableViewController.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; name = CurrencyTableViewController.kt; path = ui/CurrencyTableViewController.kt; sourceTree = "<group>"; };
+		586030DA337003A203A2CAEA /* AppDelegate.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = AppDelegate.kt; sourceTree = "<group>"; };
+		586031A10002C312D0EBE83D /* main.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = main.kt; sourceTree = "<group>"; };
+		586031D78F1E9F4FB708A074 /* CryptocurrencyCell.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; name = CryptocurrencyCell.kt; path = ui/CryptocurrencyCell.kt; sourceTree = "<group>"; };
+		586032607713700D024C97DC /* ViewController.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = ViewController.kt; sourceTree = "<group>"; };
+		586032E37A036D6F6B8B29A0 /* gradlew */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradlew; sourceTree = "<group>"; };
+		586035227B16CFC0F1E40218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		586035B9ED6E19F43DBFDA60 /* ResponseItem.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; name = ResponseItem.kt; path = data/ResponseItem.kt; sourceTree = "<group>"; };
+		5860361831BB0A7BFD7B0BEB /* CryptocurrencyTableViewController.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; name = CryptocurrencyTableViewController.kt; path = ui/CryptocurrencyTableViewController.kt; sourceTree = "<group>"; };
+		5860369309CA90E63F64AFDF /* gradle-wrapper.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "gradle-wrapper.jar"; sourceTree = "<group>"; };
+		5860374FBAA5EE1475B6B083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		586037945DAB72D6526F6D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5860383CB48A4DD2B4667C2B /* CurrencyResponse.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; name = CurrencyResponse.kt; path = data/CurrencyResponse.kt; sourceTree = "<group>"; };
+		5860388A2C3CCD3157162C1D /* Utils.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = Utils.kt; sourceTree = "<group>"; };
+		58603C62623367DAD1176F65 /* CurrencyObserverKN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyObserverKN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58603E768442997989840DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58603FA8ED91B311BDB2C500 /* gradle-wrapper.properties */ = {isa = PBXFileReference; lastKnownFileType = file.properties; path = "gradle-wrapper.properties"; sourceTree = "<group>"; };
+		58603FEF035EA4CD5184262D /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = file.gradle; path = build.gradle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58603ECC16F47ABE324A6266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5860304CBB22A8A699CD4EB4 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				586032D6B9209E21E4E64170 /* kotlin */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		586031319EB807C3934F5E02 /* gradle */ = {
+			isa = PBXGroup;
+			children = (
+				586036BAE9E14E11A012C52D /* wrapper */,
+			);
+			path = gradle;
+			sourceTree = "<group>";
+		};
+		58603199DA39F8DA016D26FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58603C62623367DAD1176F65 /* CurrencyObserverKN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		586032D6B9209E21E4E64170 /* kotlin */ = {
+			isa = PBXGroup;
+			children = (
+				586030DA337003A203A2CAEA /* AppDelegate.kt */,
+				586032607713700D024C97DC /* ViewController.kt */,
+				586031A10002C312D0EBE83D /* main.kt */,
+				586031D78F1E9F4FB708A074 /* CryptocurrencyCell.kt */,
+				5860361831BB0A7BFD7B0BEB /* CryptocurrencyTableViewController.kt */,
+				5860300477A9E9009606E8EE /* CurrencyTableViewController.kt */,
+				5860388A2C3CCD3157162C1D /* Utils.kt */,
+				5860383CB48A4DD2B4667C2B /* CurrencyResponse.kt */,
+				586035B9ED6E19F43DBFDA60 /* ResponseItem.kt */,
+			);
+			path = kotlin;
+			sourceTree = "<group>";
+		};
+		58603343D6AF63440FA87AF5 = {
+			isa = PBXGroup;
+			children = (
+				58603199DA39F8DA016D26FD /* Products */,
+				58603C01CA70BA2B92114E47 /* CurrencyObserverKN */,
+			);
+			sourceTree = "<group>";
+		};
+		58603394DE9A7C99153DDDE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58603FEF035EA4CD5184262D /* build.gradle */,
+				586032E37A036D6F6B8B29A0 /* gradlew */,
+				586031319EB807C3934F5E02 /* gradle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		586035189B8F2AE95F70AEEC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5860304CBB22A8A699CD4EB4 /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		586036BAE9E14E11A012C52D /* wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				58603FA8ED91B311BDB2C500 /* gradle-wrapper.properties */,
+				5860369309CA90E63F64AFDF /* gradle-wrapper.jar */,
+			);
+			path = wrapper;
+			sourceTree = "<group>";
+		};
+		58603C01CA70BA2B92114E47 /* CurrencyObserverKN */ = {
+			isa = PBXGroup;
+			children = (
+				58603394DE9A7C99153DDDE4 /* Supporting Files */,
+				586035227B16CFC0F1E40218 /* Info.plist */,
+				5860374FBAA5EE1475B6B083 /* Assets.xcassets */,
+				58603798F4FB3D45E48052D4 /* LaunchScreen.storyboard */,
+				58603805A393CD448B51416A /* Main.storyboard */,
+				586035189B8F2AE95F70AEEC /* src */,
+			);
+			path = CurrencyObserverKN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58603EA49AE085539707A3A3 /* CurrencyObserverKN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586036B2C8DD4537357942E4 /* Build configuration list for PBXNativeTarget "CurrencyObserverKN" */;
+			buildPhases = (
+				5860358439561FAE83560AE8 /* Sources */,
+				58603ECC16F47ABE324A6266 /* Frameworks */,
+				5860368830E89898082AAA28 /* Resources */,
+				586032B8CF50F78672CF8377 /* Compile Kotlin/Native */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurrencyObserverKN;
+			productName = CurrencyObserverKN;
+			productReference = 58603C62623367DAD1176F65 /* CurrencyObserverKN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58603220F3ED4D3C3203DCD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = devjn;
+				TargetAttributes = {
+					58603EA49AE085539707A3A3 = {
+						DevelopmentTeam = S2XKAR4QCV;
+					};
+				};
+			};
+			buildConfigurationList = 5860349AB930B3C9A4C36AAD /* Build configuration list for PBXProject "CurrencyObserverKN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58603343D6AF63440FA87AF5;
+			productRefGroup = 58603199DA39F8DA016D26FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58603EA49AE085539707A3A3 /* CurrencyObserverKN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5860368830E89898082AAA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5860371150CE3F46858239CF /* Assets.xcassets in Resources */,
+				58603B61E567DE69CAB96AE0 /* LaunchScreen.storyboard in Resources */,
+				586031D914308423A2B2D329 /* Main.storyboard in Resources */,
+				58603F1B4C0F215784F1B68A /* CryptocurrencyCell.kt in Resources */,
+				586032E035692DECF4415238 /* CryptocurrencyTableViewController.kt in Resources */,
+				58603CFE55DD4FE74BC48354 /* CurrencyTableViewController.kt in Resources */,
+				58603C9396ACB88F94767F3F /* Utils.kt in Resources */,
+				58603FCDAFEA119AA7FA0414 /* CurrencyResponse.kt in Resources */,
+				5860349838ED4D704AFB0B19 /* ResponseItem.kt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		586032B8CF50F78672CF8377 /* Compile Kotlin/Native */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Kotlin/Native";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -f \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\ncd \"$SRCROOT/$KONAN_PACKAGE_NAME\"; sh -c \". ./gradlew --no-daemon -Pkonan.useEnvironmentVariables=true $KONAN_TASK\"\ncp \"$TARGET_BUILD_DIR/$KONAN_PACKAGE_NAME.kexe\" \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5860358439561FAE83560AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58603798F4FB3D45E48052D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58603E768442997989840DF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		58603805A393CD448B51416A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586037945DAB72D6526F6D25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5860337118575D99800FEC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5860364A453E3BB801B21292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S2XKAR4QCV;
+				INFOPLIST_FILE = CurrencyObserverKN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				KONAN_ENABLE_OPTIMIZATIONS = NO;
+				KONAN_PACKAGE_NAME = CurrencyObserverKN;
+				"KONAN_TASK[sdk=iphoneos*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_arm64";
+				"KONAN_TASK[sdk=iphonesimulator*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_x64";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.devjn.CurrencyObserverKN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		58603E8D11047C0C1C28E904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58603FD98598EC10CA325015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S2XKAR4QCV;
+				INFOPLIST_FILE = CurrencyObserverKN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				KONAN_ENABLE_OPTIMIZATIONS = YES;
+				KONAN_PACKAGE_NAME = CurrencyObserverKN;
+				"KONAN_TASK[sdk=iphoneos*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_arm64";
+				"KONAN_TASK[sdk=iphonesimulator*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_x64";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.devjn.CurrencyObserverKN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5860349AB930B3C9A4C36AAD /* Build configuration list for PBXProject "CurrencyObserverKN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58603E8D11047C0C1C28E904 /* Debug */,
+				5860337118575D99800FEC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		586036B2C8DD4537357942E4 /* Build configuration list for PBXNativeTarget "CurrencyObserverKN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5860364A453E3BB801B21292 /* Debug */,
+				58603FD98598EC10CA325015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58603220F3ED4D3C3203DCD8 /* Project object */;
+}

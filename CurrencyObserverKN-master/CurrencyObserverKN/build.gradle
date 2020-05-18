@@ -1,0 +1,38 @@
+buildscript {
+    ext.kotlin_version = '1.2.31'
+	ext.kotlin_coroutines_version = '0.22.5'
+	
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://dl.bintray.com/jetbrains/kotlin-native-dependencies"
+        }
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-native-gradle-plugin:0.7-dev-1613"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+apply plugin: 'kotlin'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib"
+	compile "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"
+}
+
+apply plugin: 'konan'
+
+konan.targets = [
+    'ios_arm64', 'ios_x64'
+]
+        
+konanArtifacts {
+    program('CurrencyObserverKN')
+}
+        
